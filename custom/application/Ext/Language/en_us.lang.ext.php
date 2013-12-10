@@ -474,6 +474,16 @@ $app_list_strings['marker_image_list']['work_office'] = 'Work Office';
 $app_list_strings['marker_image_list']['world_heritage_site'] = 'World Heritage Site';
 $app_list_strings['marker_image_list']['zoo'] = 'Zoo';
 
+ 
+$app_list_strings['moduleList']['KReports'] = 'KReports v3.0';
+
+$app_list_strings['kreportstatus'] = array(
+	'1' => 'draft',
+	'2' => 'limited release',
+	'3' => 'general release'
+);
+
+
 
 /**
  *
