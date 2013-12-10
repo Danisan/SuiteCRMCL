@@ -39,6 +39,13 @@ $modInvisList[] = 'AOP_Case_Updates';
 
  
  //WARNING: The contents of this file are auto-generated
+$beanList['DHA_PlantillasDocumentos'] = 'DHA_PlantillasDocumentos';
+$beanFiles['DHA_PlantillasDocumentos'] = 'modules/DHA_PlantillasDocumentos/DHA_PlantillasDocumentos.php';
+$moduleList[] = 'DHA_PlantillasDocumentos';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 $beanList['FP_events'] = 'FP_events';
 $beanFiles['FP_events'] = 'modules/FP_events/FP_events.php';
 $moduleList[] = 'FP_events';
