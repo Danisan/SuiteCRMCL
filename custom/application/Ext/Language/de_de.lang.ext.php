@@ -2,6 +2,13 @@
  //WARNING: The contents of this file are auto-generated
 
 
+
+$app_list_strings["moduleList"]["SecurityGroups"] = 'Berechtigungsgruppen';
+$app_strings['LBL_LOGIN_AS'] = "Einloggen als ";
+$app_strings['LBL_LOGOUT_AS'] = "Ausloggen als ";
+
+
+
 /**
  * Products, Quotations & Invoices modules.
  * Extensions to SugarCRM
@@ -107,12 +114,5 @@ $app_list_strings['contract_type_list']['Type'] = 'Typ';
 $app_strings['LBL_GENERATE_LETTER'] = 'Brief erzeugen';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'Vorlage wählen';
 $app_strings['LBL_NO_TEMPLATE'] = 'ERROR\nKeine Vorlagen gefunden.\nBitte gehen Sie zum PDF Vorlagen Modul und erzeugen Sie eine Vorlage';
-
-
-
-$app_list_strings["moduleList"]["SecurityGroups"] = 'Berechtigungsgruppen';
-$app_strings['LBL_LOGIN_AS'] = "Einloggen als ";
-$app_strings['LBL_LOGOUT_AS'] = "Ausloggen als ";
-
 
 ?>

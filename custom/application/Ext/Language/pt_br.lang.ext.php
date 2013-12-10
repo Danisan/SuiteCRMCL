@@ -543,6 +543,13 @@ $app_list_strings['marker_image_list']['zoo'] = 'Zoo';
 
 
 
+$app_list_strings["moduleList"]["SecurityGroups"] = 'Gerenciamento de Grupos de SeguranÃ§a';
+$app_strings['LBL_LOGIN_AS'] = "Iniciar sessão como ";
+$app_strings['LBL_LOGOUT_AS'] = "Terminar sessão como ";
+
+
+
+
 $app_strings['LBL_MAP'] = 'Mapa';
 $app_strings['LBL_MAPS'] = 'Mapas';
 
@@ -1080,12 +1087,5 @@ $app_list_strings['marker_image_list']['winery'] = 'Winery';
 $app_list_strings['marker_image_list']['work_office'] = 'Work Office';
 $app_list_strings['marker_image_list']['world_heritage_site'] = 'World Heritage Site';
 $app_list_strings['marker_image_list']['zoo'] = 'Zoo';
-
-
-
-$app_list_strings["moduleList"]["SecurityGroups"] = 'Gerenciamento de Grupos de SeguranÃ§a';
-$app_strings['LBL_LOGIN_AS'] = "Iniciar sessão como ";
-$app_strings['LBL_LOGOUT_AS'] = "Terminar sessão como ";
-
 
 ?>
