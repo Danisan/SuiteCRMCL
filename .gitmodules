@@ -1,0 +1,6 @@
+[submodule "themes/BMyA4"]
+	path = themes/BMyA4
+	url = https://github.com/Danisan/TemaBMyA4
+[submodule "themes/BMyA2"]
+	path = themes/BMyA2
+	url = https://github.com/bmya/TemaBMyA2
