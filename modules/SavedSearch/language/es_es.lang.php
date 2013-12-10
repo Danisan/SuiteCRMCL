@@ -1,3 +1,7 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -33,76 +37,31 @@
  * "Powered by SugarCRM".
  ********************************************************************************/
 
- .body { 
-	font-size: 12px;
-}
-	
-.buttonLogin {
-	border: 1px solid #444444;
-	font-size: 11px;
-	color: #ffffff;
-	background-color: #666666;
-	font-weight: bold;
-}
-	
-table.tabForm td {
-    border: none;
-}
-	
-p {
-	MARGIN-TOP: 0px;
-	MARGIN-BOTTOM: 10px;
-}
-	
-form {
-	margin: 0px;
-}
+/*********************************************************************************
 
-input[type="text"], input[type="password"], textarea {
-	width: 200px !important;
-}
-
-#recaptcha_image {
-    height: 47.5px !important;
-    width: 250px !important;
-}
-
-#recaptcha_image img {
-    height: 47.5px;
-    width: 250px;
-} 	
-
-.loginBox {
-	border: 1px solid #abc3d7; 
-	padding: 20px;	
-	background: rgb(46, 42, 42);
-
-}
-
-.password {
-	padding: 5px 20px 5px 20px;
-	border: 1px solid #999;
-	border-top: 0px none;
-	background-color: #fff;
-}
-
-.password .login_more div:first-child {
-	text-align: right;
-}
-
-.password a { 
-	text-decoration: none;
-}
-
-.password a img {
-	margin-right: 5px;
-}	
-
-#forgot_password_dialog table {
-	margin-top: 10px;	
-}
-
-.dashletPanelMenu .bd .bd-center {
-	padding-top: 0px;
-}
-
+ * Description:  Defines the Spanish language pack for the base application.
+ * Portions created by REDK Ingeniería del Software S.L..
+ * All Rights Reserved.
+ * Contributor(s): REDK Software Engineering (www.redk.net)
+ ********************************************************************************/
+ 
+$mod_strings = array (
+  'LBL_MODULE_TITLE' => 'Mis Búsquedas Guardadas',
+  'LBL_SEARCH_FORM_TITLE' => 'Mis Búsquedas Guardadas: Búsqueda',
+  'LBL_LIST_FORM_TITLE' => 'Lista de Mis Búsquedas Guardadas',
+  'LBL_DELETE_CONFIRM' => '¿Está seguro de que desea eliminar la Búsqueda Guardada Seleccionada?',
+  'LBL_UPDATE_BUTTON_TITLE' => 'Actualizar esta Búsqueda Guardada',
+  'LBL_DELETE_BUTTON_TITLE' => 'Eliminar esta Búsqueda Guardada',
+  'LBL_SAVE_BUTTON_TITLE' => 'Guardar la búsqueda actual',
+  'LBL_LIST_NAME' => 'Nombre',
+  'LBL_LIST_MODULE' => 'Módulo',
+  'LBL_ORDER_BY_COLUMNS' => 'Ordenar por columna:',
+  'LBL_DIRECTION' => 'Dirección:',
+  'LBL_SAVE_SEARCH_AS' => 'Guardar búsqueda como:',
+  'LBL_SAVE_SEARCH_AS_HELP' => 'Esto guarda su configuración de vista y cualquier filtro en la pestaña de Búsqueda Avanzada.',
+  'LBL_PREVIOUS_SAVED_SEARCH' => 'Búsquedas Guardadas Previas:',
+  'LBL_PREVIOUS_SAVED_SEARCH_HELP' => 'Editar o Eliminar una Búsqueda Guardada.',
+  'LBL_ASCENDING' => 'Ascendente',
+  'LBL_DESCENDING' => 'Descendente',
+  'LBL_MODIFY_CURRENT_SEARCH' => 'Modificar búsqueda actual',
+);

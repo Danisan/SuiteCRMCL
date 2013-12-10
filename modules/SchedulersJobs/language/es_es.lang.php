@@ -1,3 +1,7 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -33,76 +37,37 @@
  * "Powered by SugarCRM".
  ********************************************************************************/
 
- .body { 
-	font-size: 12px;
-}
-	
-.buttonLogin {
-	border: 1px solid #444444;
-	font-size: 11px;
-	color: #ffffff;
-	background-color: #666666;
-	font-weight: bold;
-}
-	
-table.tabForm td {
-    border: none;
-}
-	
-p {
-	MARGIN-TOP: 0px;
-	MARGIN-BOTTOM: 10px;
-}
-	
-form {
-	margin: 0px;
-}
+/*********************************************************************************
 
-input[type="text"], input[type="password"], textarea {
-	width: 200px !important;
-}
-
-#recaptcha_image {
-    height: 47.5px !important;
-    width: 250px !important;
-}
-
-#recaptcha_image img {
-    height: 47.5px;
-    width: 250px;
-} 	
-
-.loginBox {
-	border: 1px solid #abc3d7; 
-	padding: 20px;	
-	background: rgb(46, 42, 42);
-
-}
-
-.password {
-	padding: 5px 20px 5px 20px;
-	border: 1px solid #999;
-	border-top: 0px none;
-	background-color: #fff;
-}
-
-.password .login_more div:first-child {
-	text-align: right;
-}
-
-.password a { 
-	text-decoration: none;
-}
-
-.password a img {
-	margin-right: 5px;
-}	
-
-#forgot_password_dialog table {
-	margin-top: 10px;	
-}
-
-.dashletPanelMenu .bd .bd-center {
-	padding-top: 0px;
-}
-
+ * Description:  Defines the Spanish language pack for the base application.
+ * Portions created by REDK Ingeniería del Software S.L..
+ * All Rights Reserved.
+ * Contributor(s): REDK Software Engineering (www.redk.net)
+ ********************************************************************************/
+ 
+$mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Asignado a Usuario con Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Usuario',
+  'LBL_NAME' => 'Nombre de tarea',
+  'LBL_EXECUTE_TIME' => 'Hora de Ejecución',
+  'LBL_SCHEDULER_ID' => 'Planificador',
+  'LBL_STATUS' => 'Estado de tarea',
+  'LBL_RESOLUTION' => 'Resolución',
+  'LBL_MESSAGE' => 'Mensajes',
+  'LBL_DATA' => 'Fecha de tarea',
+  'LBL_REQUEUE' => 'Vuelver a intentar en caso de fallo',
+  'LBL_RETRY_COUNT' => 'Intentos máximos',
+  'LBL_FAIL_COUNT' => 'Fallos',
+  'LBL_INTERVAL' => 'Intervalo mínimo entre intentos',
+  'LBL_CLIENT' => 'Ser propietario de cliente',
+  'LBL_PERCENT' => 'Porcentaje completado',
+  'ERR_CALL' => 'No se puede llamar a la función: %s',
+  'ERR_CURL' => 'No CURL - no se puede ejecutar trabajos de URL',
+  'ERR_FAILED' => 'Error inesperado, por favor, consulte los registros de PHP y sugarcrm.log',
+  'ERR_PHP' => '%s [%d]: %s en %s on line %d',
+  'ERR_NOUSER' => 'No ID de usuario especificado para el trabajo',
+  'ERR_NOSUCHUSER' => 'ID %s de usuario no encontrado',
+  'ERR_JOBTYPE' => 'Tipo de tarea desconocido: %s',
+  'ERR_TIMEOUT' => 'Fracaso forzoso por tiempo de espera',
+  'ERR_JOB_FAILED_VERBOSE' => 'Tarea %1$s (%2$s) fallo en la ejecución del CRON',
+);

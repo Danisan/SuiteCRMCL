@@ -1,3 +1,7 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -33,76 +37,39 @@
  * "Powered by SugarCRM".
  ********************************************************************************/
 
- .body { 
-	font-size: 12px;
-}
-	
-.buttonLogin {
-	border: 1px solid #444444;
-	font-size: 11px;
-	color: #ffffff;
-	background-color: #666666;
-	font-weight: bold;
-}
-	
-table.tabForm td {
-    border: none;
-}
-	
-p {
-	MARGIN-TOP: 0px;
-	MARGIN-BOTTOM: 10px;
-}
-	
-form {
-	margin: 0px;
-}
+/*********************************************************************************
 
-input[type="text"], input[type="password"], textarea {
-	width: 200px !important;
-}
-
-#recaptcha_image {
-    height: 47.5px !important;
-    width: 250px !important;
-}
-
-#recaptcha_image img {
-    height: 47.5px;
-    width: 250px;
-} 	
-
-.loginBox {
-	border: 1px solid #abc3d7; 
-	padding: 20px;	
-	background: rgb(46, 42, 42);
-
-}
-
-.password {
-	padding: 5px 20px 5px 20px;
-	border: 1px solid #999;
-	border-top: 0px none;
-	background-color: #fff;
-}
-
-.password .login_more div:first-child {
-	text-align: right;
-}
-
-.password a { 
-	text-decoration: none;
-}
-
-.password a img {
-	margin-right: 5px;
-}	
-
-#forgot_password_dialog table {
-	margin-top: 10px;	
-}
-
-.dashletPanelMenu .bd .bd-center {
-	padding-top: 0px;
-}
-
+ * Description:  Defines the Spanish language pack for the base application.
+ * Portions created by REDK Ingeniería del Software S.L..
+ * All Rights Reserved.
+ * Contributor(s): REDK Software Engineering (www.redk.net)
+ ********************************************************************************/
+ 
+$mod_strings = array (
+  'LBL_ACCESS_ALL' => 'Todo',
+  'LBL_ACCESS_NONE' => 'Nada',
+  'LBL_ACCESS_OWNER' => 'Propietario',
+  'LBL_ACCESS_NORMAL' => 'Normal',
+  'LBL_ACCESS_ADMIN' => 'Admin',
+  'LBL_ACCESS_ENABLED' => 'Habilitado',
+  'LBL_ACCESS_DISABLED' => 'Deshabilitado',
+  'LBL_ACCESS_DEV' => 'Desarrollador',
+  'LBL_ACCESS_ADMIN_DEV' => 'Admin. y Desarrollador',
+  'LBL_NAME' => 'Nombre',
+  'LBL_DESCRIPTION' => 'Descripción',
+  'LIST_ROLES' => 'Listar Roles',
+  'LBL_USERS_SUBPANEL_TITLE' => 'Usuarios',
+  'LIST_ROLES_BY_USER' => 'Listar Roles por Usuario',
+  'LBL_ROLES_SUBPANEL_TITLE' => 'Roles de Usuario',
+  'LBL_SEARCH_FORM_TITLE' => 'Búsqueda',
+  'LBL_ACTION_VIEW' => 'Ver',
+  'LBL_ACTION_EDIT' => 'Editar',
+  'LBL_ACTION_DELETE' => 'Eliminar',
+  'LBL_ACTION_IMPORT' => 'Importar',
+  'LBL_ACTION_EXPORT' => 'Exportar',
+  'LBL_ACTION_LIST' => 'Listar',
+  'LBL_ACTION_MASSUPDATE' => 'Actualización masiva',
+  'LBL_ACTION_ACCESS' => 'Acceso',
+  'LBL_ACTION_ADMIN' => 'Tipo de Acceso',
+  'LBL_ACCESS_DEFAULT' => 'No Establecido',
+);

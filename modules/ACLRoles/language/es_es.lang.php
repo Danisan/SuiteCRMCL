@@ -1,3 +1,7 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -33,76 +37,30 @@
  * "Powered by SugarCRM".
  ********************************************************************************/
 
- .body { 
-	font-size: 12px;
-}
-	
-.buttonLogin {
-	border: 1px solid #444444;
-	font-size: 11px;
-	color: #ffffff;
-	background-color: #666666;
-	font-weight: bold;
-}
-	
-table.tabForm td {
-    border: none;
-}
-	
-p {
-	MARGIN-TOP: 0px;
-	MARGIN-BOTTOM: 10px;
-}
-	
-form {
-	margin: 0px;
-}
+/*********************************************************************************
 
-input[type="text"], input[type="password"], textarea {
-	width: 200px !important;
-}
-
-#recaptcha_image {
-    height: 47.5px !important;
-    width: 250px !important;
-}
-
-#recaptcha_image img {
-    height: 47.5px;
-    width: 250px;
-} 	
-
-.loginBox {
-	border: 1px solid #abc3d7; 
-	padding: 20px;	
-	background: rgb(46, 42, 42);
-
-}
-
-.password {
-	padding: 5px 20px 5px 20px;
-	border: 1px solid #999;
-	border-top: 0px none;
-	background-color: #fff;
-}
-
-.password .login_more div:first-child {
-	text-align: right;
-}
-
-.password a { 
-	text-decoration: none;
-}
-
-.password a img {
-	margin-right: 5px;
-}	
-
-#forgot_password_dialog table {
-	margin-top: 10px;	
-}
-
-.dashletPanelMenu .bd .bd-center {
-	padding-top: 0px;
-}
-
+ * Description:  Defines the Spanish language pack for the base application.
+ * Portions created by REDK Ingeniería del Software S.L..
+ * All Rights Reserved.
+ * Contributor(s): REDK Software Engineering (www.redk.net)
+ ********************************************************************************/
+ 
+$mod_strings = array (
+  'LBL_MODULE_NAME' => 'Roles',
+  'LBL_MODULE_TITLE' => 'Roles: Inicio',
+  'LBL_ROLE' => 'Rol',
+  'LBL_NAME' => 'Nombre',
+  'LBL_DESCRIPTION' => 'Descripción',
+  'LIST_ROLES' => 'Listar Roles',
+  'LBL_USERS_SUBPANEL_TITLE' => 'Usuarios',
+  'LIST_ROLES_BY_USER' => 'Listar Roles por Usuario',
+  'LBL_LIST_FORM_TITLE' => 'Roles',
+  'LBL_ROLES_SUBPANEL_TITLE' => 'Roles de Usuario',
+  'LBL_SEARCH_FORM_TITLE' => 'Búsqueda',
+  'LBL_CREATE_ROLE' => 'Nuevo Rol',
+  'LBL_EDIT_VIEW_DIRECTIONS' => 'Haga doble clic en una celda para cambiar su valor.',
+  'LBL_ACCESS_DEFAULT' => 'No Establecido',
+  'LBL_ACTION_ADMIN' => 'Tipo de Acceso',
+  'LBL_ALL' => 'Todo',
+  'LBL_DUPLICATE_OF' => 'Duplicado De',
+);

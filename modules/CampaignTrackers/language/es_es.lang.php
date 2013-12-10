@@ -1,3 +1,7 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -33,76 +37,37 @@
  * "Powered by SugarCRM".
  ********************************************************************************/
 
- .body { 
-	font-size: 12px;
-}
-	
-.buttonLogin {
-	border: 1px solid #444444;
-	font-size: 11px;
-	color: #ffffff;
-	background-color: #666666;
-	font-weight: bold;
-}
-	
-table.tabForm td {
-    border: none;
-}
-	
-p {
-	MARGIN-TOP: 0px;
-	MARGIN-BOTTOM: 10px;
-}
-	
-form {
-	margin: 0px;
-}
+/*********************************************************************************
 
-input[type="text"], input[type="password"], textarea {
-	width: 200px !important;
-}
-
-#recaptcha_image {
-    height: 47.5px !important;
-    width: 250px !important;
-}
-
-#recaptcha_image img {
-    height: 47.5px;
-    width: 250px;
-} 	
-
-.loginBox {
-	border: 1px solid #abc3d7; 
-	padding: 20px;	
-	background: rgb(46, 42, 42);
-
-}
-
-.password {
-	padding: 5px 20px 5px 20px;
-	border: 1px solid #999;
-	border-top: 0px none;
-	background-color: #fff;
-}
-
-.password .login_more div:first-child {
-	text-align: right;
-}
-
-.password a { 
-	text-decoration: none;
-}
-
-.password a img {
-	margin-right: 5px;
-}	
-
-#forgot_password_dialog table {
-	margin-top: 10px;	
-}
-
-.dashletPanelMenu .bd .bd-center {
-	padding-top: 0px;
-}
-
+ * Description:  Defines the Spanish language pack for the base application.
+ * Portions created by REDK Ingeniería del Software S.L..
+ * All Rights Reserved.
+ * Contributor(s): REDK Software Engineering (www.redk.net)
+ ********************************************************************************/
+ 
+$mod_strings = array (
+  'LBL_ID' => 'Id',
+  'LBL_TRACKER_KEY' => 'Clave de Seguimiento',
+  'LBL_TRACKER_URL' => 'URL de Seguimiento',
+  'LBL_TRACKER_NAME' => 'Nombre de Seguimiento',
+  'LBL_CAMPAIGN_ID' => 'Id Campaña',
+  'LBL_DATE_ENTERED' => 'Fecha Creación',
+  'LBL_DATE_MODIFIED' => 'Fecha Modificación',
+  'LBL_MODIFIED_USER_ID' => 'Modificado por',
+  'LBL_CREATED_BY' => 'Creado por',
+  'LBL_DELETED' => 'Eliminado',
+  'LBL_CAMPAIGN' => 'Campaña',
+  'LBL_OPTOUT' => 'Opción de rehusar',
+  'LBL_MODULE_NAME' => 'Seguimientos de Campaña',
+  'LBL_EDIT_CAMPAIGN_NAME' => 'Nombre de Campaña:',
+  'LBL_EDIT_TRACKER_NAME' => 'Nombre de Seguimiento:',
+  'LBL_EDIT_TRACKER_URL' => 'URL de Seguimiento:',
+  'LBL_SUBPANEL_TRACKER_NAME' => 'Nombre',
+  'LBL_SUBPANEL_TRACKER_URL' => 'URL',
+  'LBL_SUBPANEL_TRACKER_KEY' => 'Clave',
+  'LBL_EDIT_MESSAGE_URL' => 'URL para Mensaje de Campaña:',
+  'LBL_EDIT_TRACKER_KEY' => 'Clave de Seguimiento:',
+  'LBL_EDIT_OPT_OUT' => '¿Enlace para rehusar?',
+  'LNK_CAMPAIGN_LIST' => 'Campañas',
+  'LBL_EDIT_LAYOUT' => 'Editar diseño',
+);
